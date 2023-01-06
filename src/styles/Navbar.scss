@@ -1,0 +1,18 @@
+nav{
+    margin-top: 50px;
+    display: flex;
+    padding: 0 69px;
+    background: transparent;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    .logo{
+        width: 100px;
+        height: 100px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
