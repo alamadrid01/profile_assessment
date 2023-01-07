@@ -1,31 +1,41 @@
 import { useState } from "react";
 import "../styles/UserCard.scss"
 
-function UserCard({mode}) {
-    const [title, setTitle] = useState("")
+function UserCard({mode}: any) {
+    let Data;
 
     switch (mode) {
         case 'USERS':
-              setTitle("USERS")
+             Data = {
+                title: "USERS",
+            }
             break;
         case 'ACTIVE':
-            setTitle("ACTIVR USERS")
+             Data = {
+                title: "ACTIVE USERS",
+            }
             break;
-        case 'LOAN':
-            setTitle("USERS WITH LOANS")
+        case 'LOANS':
+             Data = {
+                title: "USERS WITH LOANS",
+            }
             break;
-        case 'SAVING':
-            setTitle("USERS WITH SAVINGS")
+        case 'SAVINGS':
+             Data = {
+                title: "USERS WITH SAVINGS",
+            }
             break;
     
         default:
+            Data = {
+                title: "",
+            }
             break;
     }
   return (
     <div className="card">
         <main>
-            HELLO
-            {title}
+            {Data.title}
         </main>
     </div>
   )
