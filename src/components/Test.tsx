@@ -15,7 +15,10 @@ const CustomToolbar: React.FunctionComponent<{
 }> = ({ setFilterButtonEl }) => (
   <GridToolbarContainer>
     <GridToolbarFilterButton ref={setFilterButtonEl} />
+    <GridToolbarFilterButton ref={setFilterButtonEl} />
+    <GridToolbarFilterButton ref={setFilterButtonEl} />
   </GridToolbarContainer>
+  
 );
 
      function Test() {

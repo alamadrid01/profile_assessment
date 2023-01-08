@@ -10,7 +10,7 @@ import Dashboard from "./components/Dashboard";
 export const User = React.createContext({});
 
 function App() {
-  const [loggedIn, setLoggedIn] = useState(false);
+  const [loggedIn, setLoggedIn] = useState(true);
   return (
     <div className="App">
       <User.Provider value={{ loggedIn, setLoggedIn }}>

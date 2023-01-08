@@ -1,5 +1,33 @@
 .card{
+    display: flex;
+    // background: green;
+    margin: 0;
+    padding: 0;
+    width: 250px;
     main{
-        color: red;
+      background: rgba(163, 182, 179, 0.096);
+      border-radius: 10px;
+      padding: 20px ;
+      width: 100%;
     }
+}
+.first{
+    background-color: rgba(128, 0, 128, 0.349);
+    padding: 10px;
+    border-radius: 50%;
+}
+.second{
+    background-color: rgba(0, 13, 128, 0.349);
+    padding: 10px;
+    border-radius: 50%;
+}
+.third{
+    background-color: rgba(119, 128, 0, 0.349);
+    padding: 10px;
+    border-radius: 50%;
+}
+.fourth{
+    background-color: rgba(4, 128, 0, 0.349);
+    padding: 10px;
+    border-radius: 50%;
 }
